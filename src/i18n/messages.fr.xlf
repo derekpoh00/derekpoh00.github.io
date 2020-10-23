@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8f8c1e44db621d9a326a97396e69787284671553" datatype="html">
+        <source>Hello world!</source>
+        <target>Bonjour le monde!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">Friendly welcoming message</note>
+        <note priority="1" from="meaning">main header</note>
+      </trans-unit>
+      <trans-unit id="2aaa6a848257ea436d32c801ac6d7d25a8059edb" datatype="html">
+        <source>{VAR_PLURAL, plural, zero {no tasks} one {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> task} few {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> tasks} many {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> tasks} other {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> tasks} }</source>
+        <target>{VAR_PLURAL, plural, zero {no tâches} one {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> tâche} few {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> tâches} many {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> tâches} other {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> tâches} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
+
